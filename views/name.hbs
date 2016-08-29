@@ -1,0 +1,10 @@
+<style>
+  body{ background-color: {{color}}; }
+</style>
+<h1>Hey there's something you should know, {{name}}</h1>
+<h1>{{compliment}}</h1>
+
+<form action="/{{name}}/new" method="POST">
+  <input type="text" name="name" placeholder="Please add a compliment"/>
+  <input type="submit" value="Submit" />
+</form>
